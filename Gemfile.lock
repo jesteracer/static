@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cuba (3.3.0)
+      rack
+    netrc (0.7.9)
+    rack (1.6.0)
+    rest_client (1.8.3)
+      netrc (~> 0.7.7)
+    tilt (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cuba
+  rest_client
+  tilt

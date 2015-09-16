@@ -1,0 +1,10 @@
+<% documents.each do |key, material| %>
+  <h1><%= material["title"] %></h1>
+
+  <a href="<%= material["url"] %>">Ссылка</a>
+
+  <% if material["image"] %>
+    <img src="https://meduza.io<%= material["image"]["wh_300_200_url"] %>">
+
+  <% end %>
+<% end %>
